@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PRACTICE1-1</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="responsive.css">
+        <script src="https://kit.fontawesome.com/0edb6b0504.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    </head>
+    <body>
+        <p class="header-ad">新規会員登録でその場で使える<span class="point">300pt</span>プレゼント！他にもお得がいっぱい！</p>
+        <nav id="global_nav">
+            <header>
+                <div class="header-con">
+                    <span class="header-logo">
+                        <img src="https://www.muk-webshop.com/wp-content/themes/muk/src/images/common/logo.png">
+                    </span>
+                    <span class="header-menu">
+                        <a>TOP</a>
+                        <a>LOGIN</a>
+                        <a>LOGOUT</a>
+                        <a>ABOUT</a>
+                        <a>GUIDE</a>
+                        <a>CONTACT</a>
+                    </span>
+                <div class="header-item">
+                    <span class="header-icon">
+                        <span class="fa-solid fa-circle-user fa-lg"></span>
+                        <span class="fa-solid fa-heart fa-lg"></span>
+                        <span class="fa-solid fa-cart-shopping fa-lg"></span>
+                    </span>
+                    <!---SP-->
+                    <span class="sp-header-icon">
+                        <span class="fa-solid fa-cart-shopping fa-lg"></span>
+                    </span>
+                    <!--end-->
+                    <span class="hamburger-menu">
+                        <input id="menu-checkbox" type="checkbox" />
+                        <label class="menu-btn" for="menu-checkbox">
+                            <i class="fas fa-bars"></i>
+                        </label>
+                        <div class="nav-content">
+                            <input id="menu-checkbox" type="checkbox" />
+                            <label class="menu-btn" for="menu-checkbox">
+                                <i class="fas fa-times"></i>
+                            </label>
+                            <nav class="nav-menu">
+                                <p class="hamburger">
+                                    <p class="hamburger-menu-title">CATEGORY</p>
+                                    <a class="hamburger-menu-item">ピアス</a>
+                                    <a class="hamburger-menu-item">イヤリング</a>
+                                    <a class="hamburger-menu-item">ネックレス</a>
+                                    <a class="hamburger-menu-item">リング</a>
+                                    <a class="hamburger-menu-item">ブレスレット・アンクレット</a>
+                                    <a class="hamburger-menu-item">ヘアアクセサリー</a>
+                                    <a class="hamburger-menu-item">時計</a>
+                                    <a class="hamburger-menu-item">雑貨</a>
+                                    <a class="hamburger-menu-item">ジュエリー</a>
+                                    <p class="hamburger-menu-title">CATEGORY</p>
+                                    <a class="hamburger-menu-item"><span class="new">[NEW]</span> 新作入荷アイテム</a>
+                                    <a class="hamburger-menu-item"><span class="re">[RE]</span> 再入荷アイテム</a>
+                                    <a class="hamburger-menu-item"><span class="hot">[HOT]</span> マスク関連グッズ</a>
+                                    <a class="hamburger-menu-item">金属アレルギー対応</a>
+                                    <a class="hamburger-menu-item">プチプラアイテム</a>
+                                    <a class="hamburger-menu-item">素材から探す</a>
+                                    <a class="hamburger-menu-item">モチーフから探す</a>
+                                    <a class="hamburger-menu-item">使用シーンから探す</a>
+                                    <a class="hamburger-menu-item">ショップブランドから探す</a>
+                                    <a class="hamburger-menu-item">商品コレクションから探す</a>
+                                </p>
+                            </nav>
+                        </div>
+                        <label class="nav-close" for="menu-checkbox"></label>
+                    </span>
+                </div> 
+            </header>
+        </nav>
+        <div class="con1-wrapper">
+            <aside>
+              <form method="get" action="https://www.muk-webshop.com/fs/accessory/GoodsSearchList.html" class="search_container">
+              <input type="hidden" name="_e_k" value="Ａ">
+              <input type="hidden" name="tag" value="検索可能"> 
+              <input type="text" name="keyword" maxlength="1000" placeholder="Item serch">
+              <input type="submit" value="&#xf002">
+              </form>
+              <p class="side-menu">CATEGORY</p>
+              <p class="side-menu-list">ピアス</p>
+              <p class="side-menu-list">イヤリング</p>
+              <p class="side-menu-list">ネックレス</p>
+              <p class="side-menu-list">リング</p>
+              <p class="side-menu-list">ブレスレット・アンクレット</p>
+              <p class="side-menu-list">ヘアアクセサリー</p>
+              <p class="side-menu-list">時計</p>
+              <p class="side-menu-list">雑貨</p>
+              <p class="side-menu-list">ジュエリー</p>
+              <p class="side-menu">TYPE</p>
+              <p class="side-menu-list"><span class="new">[NEW]</span> 新作入荷アイテム</p>
+              <p class="side-menu-list"><span class="re">[RE]</span> 再入荷アイテム</p>
+              <p class="side-menu-list"><span class="hot">[HOT]</span> マスク関連グッズ</p>
+              <p class="side-menu-list">金属アレルギー対応</p>
+              <p class="side-menu-list">プチプラアイテム</p>
+              <p class="side-menu-list">素材から探す</p>
+              <p class="side-menu-list">モチーフから探す</p>
+              <p class="side-menu-list">使用シーンから探す</p>
+              <p class="side-menu-list">ショップブランドから探す</p>
+              <p class="side-menu-list">商品コレクションから探す</p>
+            </aside>
+            <main>
+                <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+                    <li itemprop="itemListElement" itemscope
+                        itemtype="https://schema.org/ListItem">
+                      <a itemprop="item" href="https://s0720.github.io/practice01/">
+                          <span itemprop="name">HOME</span>
+                      </a>
+                      <meta itemprop="position" content="1" />
+                    </li>
+                    <li itemprop="itemListElement" itemscope
+                        itemtype="https://schema.org/ListItem">
+                      <a itemprop="item" href="https://s0720.github.io/practice01-member/">
+                          <span itemprop="name">新規無料会員登録</span>
+                      </a>
+                      <meta itemprop="position" content="2" />
+                    </li>
+                </ol>
+                <div class="membership-prize">
+                    <p>＼ 無料会員　募集中 ／</p>
+                    <p class="membership-ex">入会<span class=membership-ex-emphasis>４</span>大特典<br>&<br>登録してすぐに使える<br><span class=membership-ex-emphasis>300ポイント</span>プレゼント</p>
+                </div>
+                <div class="coupon">
+                    <img src="https://www.muk-webshop.com/img/028/member/member1.jpg">
+                    <p>お誕生日クーポンプレゼント！<br>
+                        <span class="coupon-caution">(注)お誕生日クーポンはお誕生月の一週間前までに<br>お誕生日をご登録済みの会員様のみ対象<br>（お誕生日月の1日に付与されます）</span></p>
+                </div>
+                <div class="point">
+                    <img src="https://www.muk-webshop.com/img/028/member/member2.jpg">
+                    <p>公式オンラインショップでの<br>お買い物時にポイントが貯まり<br>1P=1円としてご利用いただけます</p>
+                </div>
+                <div class="mypage">
+                    <img src="https://www.muk-webshop.com/img/028/member/member3.jpg">
+                    <p>過去の注文履歴やクーポンの確認に<br>お気に入り登録もご利用いただけます</p>
+                </div>
+                <div class="magazine">
+                    <img src="https://www.muk-webshop.com/img/028/member/member5.jpg">
+                    <p>新商品のご紹介やお得なキャンペーン情報も<br>いち早くお知らせ！</p>
+                </div>
+                <div class="register">
+                    <a>会員登録する</a>
+                </div>
+            </main>
+        </div>
+        <div class="bottom">
+            <div class="c-bottom">
+                <div class="bottom-logo"><img src="https://www.muk-webshop.com/wp-content/themes/muk/src/images/common/logo.png"></div>
+                <div class="bottom-sns">
+                    <i class="fa-brands fa-instagram "></i>
+                    <i class="fa-brands fa-twitter "></i>
+                    <i class="fa-brands fa-line "></i>
+                  </div>
+            </div>    
+        </div>
+        <footer>
+            <div class="footer-left">
+                <p class="footer-left-item">会社概要</p>
+                <p class="footer-left-item">MUK ONLINE SHOPについて</p>
+                <p class="footer-left-item">ガイド</p>
+                <p class="footer-left-item">新規会員登録（無料）</p>
+                <p class="contact">お問い合わせ</p>
+                <p class="buttom">ショップリストはこちら</p>
+                <p class="buttom">メールマガジン</p>
+            </div>
+            <div class="footer-right">
+                <div class="footer-right-category">
+                  <p class="footer-right-title">CATEGORY</p>
+                  <a class="footer-right-item">ピアス</a>
+                  <a class="footer-right-item">イヤリング</a>
+                  <a class="footer-right-item">ネックレス</a>
+                  <a class="footer-right-item">リング</a>
+                  <a class="footer-right-item">ブレスレット・アンクレット</a>
+                  <a class="footer-right-item">ヘアアクセサリー</a>
+                  <a class="footer-right-item">時計</a>
+                  <a class="footer-right-item">雑貨</a>
+                  <a class="footer-right-item">ジュエリー</a>
+                </div>
+                <div class="footer-right-type">
+                  <p class="footer-right-title">TYPE</p>
+                  <a class="footer-right-item">新作入荷アイテム</a>
+                  <a class="footer-right-item">再入荷アイテム</a>
+                  <a class="footer-right-item">マスク関連グッズ</a>
+                  <a class="footer-right-item">金属アレルギー対応</a>
+                  <a class="footer-right-item">プチプラアイテム</a>
+                  <a class="footer-right-item">素材から探す</a>
+                  <a class="footer-right-item">モチーフから探す</a>
+                  <a class="footer-right-item">使用シーンから探す</a>
+                  <a class="footer-right-item">ショップブランドから探す</a>
+                  <a class="footer-right-item">商品コレクションから探す</a>
+                </div>
+            </div>
+        </footer>
+        <div class="arr">MUK online shop. All Rights Reserved.</div>
+          
+            
+        
+        <script>
+            var nav_pos = $("#global_nav").offset().top;
+            var nav_height = $("#global_nav").outerHeight();
+            $(window).scroll(function () {
+            if ($(this).scrollTop() > nav_pos) {
+            $("body").css("padding-top", nav_height);
+            $("#global_nav").addClass("fixed");
+            } else {
+            $("body").css("padding-top", 0);
+            $("#global_nav").removeClass("fixed");
+            }
+            });
+        </script>
+              
+        <script>
+            $('.slider-1').slick({
+            autoplay: true,         //自動再生
+            autoplaySpeed: 2000,  //自動再生のスピード
+            speed: 800,  //スライドするスピード
+            dots: true, //スライドしたのドット
+            arrows: true,          //左右の矢印
+            infinite: true, //スライドのループ
+            pauseOnHover: false,   //ホバーしたときにスライドを一時停止しない　
+            });
+        </script>
+        <script>
+            $('.slider-2').slick({
+            slidesToShow: 6,
+            slidesToScroll: 6,
+            dots:true,
+            arrows:true
+          });
+          </script>
+    </body>
