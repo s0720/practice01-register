@@ -1,0 +1,33 @@
+@media screen and (max-width:670px) {
+    .header-ad {
+        display:none;
+    }
+
+    .header-menu {
+        display:none;
+    }
+
+    .header-item {
+        display:none;
+    }
+
+    .sp-header-icon {
+        display:inline-block;
+    }
+
+    .con1-wrapper {
+        width:100%;
+        margin:0 auto;
+    }
+
+    .con1-wrapper aside {
+        width:0%;
+    }
+
+    .con1-wrapper main {
+        width:100%;
+        margin:0 auto;
+        padding-left:0px!important;
+    }
+   
+}
