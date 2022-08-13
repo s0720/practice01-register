@@ -9,33 +9,27 @@
         color:#484142;
     }
     
-    .header-ad {
-        max-width: 1100px;
-        height:110px;
-        line-height:110px;
-        width:80%;
-        margin:0 auto;
+    .top-register {
+        max-width:1000px;
         text-align: center;
-        background-color:#FCC8D1;
-        font-size:30px;
+        margin:0 auto;
     }
-    
-    .point {
-        color:#EC6996;
-        font-weight: bold;
+
+    .top-register img {
+        width:100%;
     }
     
     header {
         border-top:1px solid #EDEDED;
         border-bottom:1px solid #EDEDED;
         background-color: #fff;
+        height:50px;
     }
-    
+
     .header-con {
-        max-width: 1100px;
+        max-width: 1000px;
         width:80%;
         margin:0 auto;
-        height:50px;
         line-height:50px;
     }
     
@@ -170,19 +164,18 @@
     }
 
     .con1-wrapper{
-        max-width: 1100px;
+        max-width: 1000px;
         display:flex;
         width:80%;
         margin:0 auto;
     }
 
     aside {
-        width:20%;
+        flex:1;
     }
 
     main {
-        width:100%;
-        padding-left:35px;
+        flex:3;
     }
 
     .search_container{
